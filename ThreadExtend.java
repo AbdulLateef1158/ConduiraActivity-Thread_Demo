@@ -5,7 +5,7 @@ public class ThreadExtend extends Thread{
 	}
 	public static void main(String args[]){
 		ThreadExtend t=new ThreadExtend();
-		t.setName("Abd");
+		t.setName("E-Thread");
 		t.start();
 	}
 }
