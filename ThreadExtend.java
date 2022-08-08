@@ -1,4 +1,5 @@
 public class ThreadExtend extends Thread{
+	@Override
 	public void run(){
 		System.out.println("Name of the thread is: "+Thread.currentThread().getName());
 	}
