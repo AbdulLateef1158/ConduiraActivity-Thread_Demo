@@ -1,5 +1,5 @@
 import java.util.concurrent.*;
-class Threadpool implements Runnable{
+public class Threadpool implements Runnable{
 	int i,j;
 	public Threadpool(int i,int j){
 		this.i=i;
